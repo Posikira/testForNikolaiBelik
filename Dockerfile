@@ -2,7 +2,7 @@ FROM python:2.7-slim
 
 WORKDIR /app
 
-ADD . /app
+ADD . /test/app
 
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
